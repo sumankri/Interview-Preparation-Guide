@@ -1,0 +1,48 @@
+First round - 5 years of experience
+
+Difference between
+=============================
+Fail fast and fail safe iterator
+HashMap and Concurrent hashmap
+Not null and not empty
+Eager Loading and Lazy loading
+
+
+WH Question
+=============================
+1.Validation on Pojo class using annotation (String name, String password, Date dateOfBirth)
+#name should not contain any special character or number
+#password should contain at least 8 character : 1 special, 1 number, 1 character
+#dateOfBirth should be greater than 18 years and it should be a previous date not current date
+2.How do you handle exception in SpringBoot application? Tell me the name of annotation used.
+3.Which collection will you choose in multithreaded environment for consistency : HashMap or ConcurrentHashMap
+4.which one of these collections is Fail fast and fail-safe : ConcurrentHashMap,  HashMap
+5.how to ignore hibernate autoconfiguration or any configuration in springboot
+6.which exception is thrown during fail-fast
+7.New feature in Java 8 - LocalDateTime
+8.Ternary operator and how to use it?
+9.Eureka service discovery
+10.Spring Security
+11. API gateway
+
+
+
+
+Code
+==============================
+1. Design and implement a HitCounter class that keeps track of requests (or hits) for any URL.It should support the following operations:
+record(url, timestamp): records a hit that happened at timestamp for a particular URL
+int total(url): returns the total number of hits recorded of the provided URL
+int range(url, lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive) for a particular URL
+Note:Use exact same names as above mentioned.You don’t have any databases to store the data. Use appropriate data structure for the same.
+
+2.
+ public class Employee {
+    private List<Address> addressList;
+}
+
+write a sql query to fetch the address of an employee based on name;
+write jpa query for this;
+
+
+
