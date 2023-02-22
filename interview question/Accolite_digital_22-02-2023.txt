@@ -1,0 +1,34 @@
+First round - 5 years of experience
+
+Difference b/w
+========================================
+Runtime polymorphism and compile-time polymorphism
+Exception and error
+component and bean
+Synchonization and volatile
+Spring and Spring boot
+
+WH Questions
+=========================================
+Internal working of Hashmap
+what happened when there is a collision in a hashmap
+what is stack
+Final, Finally and Finalize
+Functional interface
+Java 8 new features
+Four pillar of OOPs.
+why default and static method introduced in java 8
+Different type of java memory
+where String literal are getting created.
+what is association and Type of association
+how Spring MVC interact with database.
+how dispatcher servlet handle the request and call the method with url
+Tell me the design Pattern
+Explain Factory method design pattern.
+
+
+code:
+Implement queue using two stack.
+print PrimeFactor of a number. example 12 - 2,2,3
+Print top 3 element using stream.
+Implement factory method design pattern.
