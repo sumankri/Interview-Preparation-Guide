@@ -24,6 +24,8 @@ WH Question
 9.Eureka service discovery
 10.Spring Security
 11. API gateway
+12.How we can insert data on application startup in springboot application?
+13.How you push your code in Bitbucket or github ?
 
 
 
@@ -31,7 +33,7 @@ WH Question
 Code
 ==============================
 1. Design and implement a HitCounter class that keeps track of requests (or hits) for any URL.It should support the following operations:
-record(url, timestamp): records a hit that happened at timestamp for a particular URL
+void record(url, timestamp): records a hit that happened at timestamp for a particular URL
 int total(url): returns the total number of hits recorded of the provided URL
 int range(url, lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive) for a particular URL
 Note:Use exact same names as above mentioned.You don’t have any databases to store the data. Use appropriate data structure for the same.
