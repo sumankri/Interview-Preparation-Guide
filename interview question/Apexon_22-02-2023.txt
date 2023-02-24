@@ -4,7 +4,7 @@ Difference between
 =============================
 Fail fast and fail safe iterator
 HashMap and Concurrent hashmap
-Not null and not empty
+@NotNull and @NotEmpty
 Eager Loading and Lazy loading
 
 
