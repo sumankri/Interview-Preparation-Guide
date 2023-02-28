@@ -1,0 +1,36 @@
+Coding:
+
+1.Count the frequency of all character of a given String.
+   -> String str  = "MAYANK";
+    String[] strArray = str.split("");
+    Arrays.stream(strArray).collect(Collectors.groupingBy(Function.identity(),Collectors.counting())).forEach((a,b) -> System.out.print(a + "--->" + b));
+
+2. Find the sum of square of all the odd element from a list.
+  -> Integer sumOfSquare = list.stream().filter(e-> e%2 != 0).map(e-> e*e).collect(Collectors.summingInt(Integer::valueOf));
+
+3. 10th highest salary.
+	Employee (id(PK), name)
+	Salary (emp_id(FK), SALARY)
+
+->Select e1.name from employee e1 inner join salary s on e1.id == s.emp_id
+where (Select count(distinct(e2.salary)) from e2 employee where e2.salary > e1.salary) = 9;
+
+4. Remove all odd prime number from a list and print the same list.
+
+
+
+Question:
+How you can prevent a singleton class from serialization, Reflection and Cloning?
+How to prevent a method from accessing it by multiple thread?
+What is hashing and why we use it?
+how to use EmployeeId for searching a element in hashSet.contains(a) method instead of entire employee object?
+what is JWT and why it is used?
+what is Caching?
+what is a proxy object?
+How to configure two databases in a application?
+If two thread are accessing the same data, One is performing the read operation and another one write operation. How will you prevent it from data inconsistency?
+what is join and yield method?
+
+
+
+
