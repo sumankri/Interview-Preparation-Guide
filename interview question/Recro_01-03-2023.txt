@@ -1,0 +1,70 @@
+1. Microservice principle
+2. ArrayList(10). can we add 11th element?
+3. Difference between ArrayList and LinkedList
+4. Garbage Collection
+5. Find the issue in the below code and resolve it:
+
+interface DemoA
+{
+	public void demo();
+}
+
+@Component
+class DemoB implements DemoA
+{
+	public void demo()
+	{
+		//
+	}
+}
+
+@Component
+class DemoC implements DemoA
+{
+	public void demo()
+	{
+		//
+	}
+}
+
+@Component
+class DemoD
+{
+	@Autowired
+	@Qualifier("")
+	private DemoA demoA
+
+	public void demoMine()
+	{
+		demoA.demo();
+	}
+}
+
+6. Find the issue and resolve it:
+@Component
+class DemoA
+{
+	@Autowired
+	DemoB demoB;
+}
+
+@Component
+class DemoB
+{
+	@Autowired
+	DemoA demoA;
+}
+7. Circular dependency and how to resolve it?
+8. Given an array which contain only two element 4 and 5. For ex : {4,4,4,4,5,5,5,5,5}
+	Find the number of count of 5. Optimal approach
+8. Reverse a linkedlist 1-> 2-> 3-> 4 -> null
+9. Template design pattern
+10. design url for below:  (Answer)
+    cartById    /carts    /{cartId}  GET
+    findAll     /carts	  /		     GET
+    createCart  /carts    /          POST
+
+11. Design database for user cart table so that we can  user can add Product to the cartById , remove product and list all products
+ans : userId, productId, count
+       1      PD1	        5
+       1	  PD2		    1
