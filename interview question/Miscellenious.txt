@@ -1,0 +1,30 @@
+Microservice Principle
+Microservice pattern
+Circuit breaker
+API Gateway
+Load balancer
+Contract between hashcode() and equals()
+why string in Java is immutable class?
+Immutable class
+why key of hashset must be an immutable object
+Update of hashmap in java 8
+Difference between @Primary and @Qualifier
+Explain @SpringBootApplication
+what is the difference between @Mock and @Spy
+Why we use spring security- Authentication and Authorization
+what is apache kafka and name its component.
+what is Producer and Consumer in Kafka.
+What is Broker in kafka?
+why we use Spring cloud config server?
+Difference between RestTemplate and Feign Client?
+What is fail-fast and fail-safe?
+
+
+
+Coding logic:
+===================================
+write code for reversing a Linked list.
+Write Junit for a controller class
+Given an array containing only two number 4,5 like [4,4,4,4,5,5] in sorted. Find the count of 5;
+
+
